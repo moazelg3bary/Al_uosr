@@ -1,0 +1,101 @@
+/*  
+    -- Breakpoints --
+    # Small devices (landscape phones, 576px and down)
+    @media (max-width: 480px) {}
+
+    # Small devices (landscape phones, 576px and down)
+    @media (max-width: 575px) {}
+
+    # Medium devices (tablets, 768px and down)
+    @media (max-width: 767px) {}
+
+    # Large devices (desktops, 992px and down)
+    @media (max-width: 991px) {}
+
+    # Extra large devices (large desktops, 1200px and down)
+    @media (max-width: 1200px) {} 
+*/
+@media all and (min-width:992px) and (max-width:1200px){
+    .logo {
+        margin-left: 30px
+    }
+    .navbar ul li{
+        margin: 0;
+    }
+
+    .navbar ul li a{
+        font-size: 11px;
+    }
+}
+@media all and (max-width: 991px) {
+    .header .form-control {
+        width: 85%;
+    }
+    .header form button {
+        left: 10%;
+    }
+    .navbar .logo {
+        display: inline;
+    }
+
+    
+@media (max-width: 576px) { 
+    .slide .form-control {
+    
+        font-size: 1.7vw!important;
+        font-weight: bold!important
+    }
+
+    .slide form button {
+        
+        font-size: 1.7vw!important;
+        font-weight: bold!important
+    }
+}
+
+@media (max-width: 408px) { 
+    /* start page services.html */
+    .modal-footer {
+        text-align: center;
+        display: block !important;
+    }
+    .modal-footer span, button {
+        margin: 5px 0;
+        display: block;
+    }
+    .modal-footer button {
+        width: 100%;
+    } 
+    /* end page services.html */
+
+    /* start services/services-web.html */
+    .web-content .col-md-6 .con-btn {
+        margin: 0 0 8px 0 !important;
+    }
+    /* end services/services-web.html */
+
+    /* start /services/services-hosting.html */
+    .hosting-content .hosting-details .host-btn {
+        margin: 40px 0;
+        width: 100% !important;
+    }
+    .hosting-content .packages .card-btn {
+        margin: 40px  auto;
+        width: 80%;
+    }
+    /* end /services/services-hosting.html */    
+}
+    
+    /*
+    #wrapper.toggled #sidebar-wrapper {
+        margin-right: -15rem;
+    }
+     #sidebar-wrapper .list-group {
+        width: 100%;
+        flex-direction: row;
+        position: relative;
+        top: 0;
+        left: 0 !important;
+        z-index: 1111 !important;
+    } */
+}

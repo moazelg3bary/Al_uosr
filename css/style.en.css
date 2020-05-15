@@ -1,0 +1,74 @@
+/*Start Globale classes ar style*/
+.txt-right {
+    text-align: right !important
+}
+.txt-left {
+    text-align: left !important
+}
+.dir-right {
+    direction: rtl !important
+}
+.dir-left {
+    direction: ltr !important
+}
+
+/*start class flex-box & prevfix*/
+.d-fx {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -o-flex;
+    display: flex;
+}
+.fx-row-r {
+    -moz-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+    -o-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+/*End Globale classes ar style*/
+
+/* start Header */
+.navbar-collapse ul {
+    margin-right: 0 !important;
+    margin-left: auto !important;
+}
+.search-form i {
+    left: auto;
+    right: 16px !important;
+}
+.slide .carousel-inner form button {
+    left: auto;
+    right: 26% !important;
+}
+/* end Header */
+
+/* start index.html en */
+.service ul li i {
+    float: left;
+    margin-left: 0;
+    margin-right: 11px !important;
+}
+/* end index.html en */
+
+/* start services en */
+.about-content h3, .hosting-content .packages h3, .marketing-content .marketing-details>h4,
+ .mobile-content .mobile-details h3, .exp-content>h3, .clients-content>h3, .offers-content h3 {
+    border-right: none;
+    border-left: 4px solid #dc3545;
+}
+/* end services */
+
+/* start ourClients.html en */
+.testemonials .share ul {
+    text-align: left !important;
+}
+/* end ourClients.html en */
+
+/* start offers.html en */
+@media (max-width: 408px) { 
+    .modal-footer span, button {
+        margin: 5px auto 5px 0;
+    }
+}
