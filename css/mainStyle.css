@@ -1,3 +1,22 @@
+/* colors */
+.bg-b {
+    background-color: #5477b7 !important;
+}
+.bg-o {
+    background-color: #f98235 !important;
+}
+.color-b {
+    color: #5477b7 !important;
+}
+.color-o {
+    color: #f98235 !important;
+}
+.borer-b {
+    color: #5477b7 !important;
+}
+.borer-o {
+    color: #f98235 !important;
+}
 /* Main Rules */
 
 @font-face {
@@ -38,8 +57,8 @@ body {
 }
 
 .yellow-color {
-    color: #f39c12!important;
-    border-color: #f39c12!important;
+    color: #f98235!important;
+    border-color: #f98235!important;
 }
 
 .aqua-color {
@@ -50,7 +69,7 @@ body {
 /* Start Navbar */
 .navbar {
     padding: 0px;
-    background: #dc3545 !important;    
+    background:#5477b7 !important;    
 }
 .navbar .navbar-toggler {
     background-color: #fff;
@@ -110,7 +129,7 @@ body {
 .search:focus {
     color: #495057;
     background-color: #fff;
-    border-color: #dc35457d;
+    border-color: #5477b77d;
     outline: 0;
     box-shadow: 0 0 10px #fff;
 }
@@ -164,7 +183,9 @@ body {
     left: 26%;
     border-radius: 32px;
 	font-size: 1vw;
-	font-weight: bold
+    font-weight: bold;
+    background-color: #5477b7 !important;
+    border-color: #5477b7 !important;
 }
 
 /* End slider */
@@ -205,8 +226,8 @@ body {
     width: 100%;
     margin: 10px 0;
     background-color: rgba(0, 0, 0, .1);
-    color: #2ecc71;
-    border-bottom: 4px solid #2ecc71;
+    color: #f98235;
+    border-bottom: 4px solid #f98235;
 }
 
 .statistics h5 {
@@ -237,7 +258,7 @@ body {
     margin-top: 4px;
     margin-left: 11px;
     font-size: 20px;
-    color: #dc3545;
+    color: #5477b7;
 }
 
 .service ul li p {
@@ -255,7 +276,7 @@ body {
 
 .question {
     padding: 64px 32px;
-    background-color: #dc3545;
+    background-color: #5477b7;
 }
 
 .question h2 {
@@ -268,7 +289,7 @@ body {
     padding: 12px 28px;
     border-radius: 4px;
     background-color: #FFF;
-    color: #dc3545;
+    color: #5477b7;
     font-size: 16px;
 }
 
@@ -305,19 +326,19 @@ body {
     margin: 80px 0;
     background-color: #f3f0f0;
     padding: 12px 10px;
-    border-right: 2px solid #dc3545
+    border-right: 2px solid #5477b7;
 }
 
 .about-content h4 {
     text-align:center;
     font-size: 25px;
     font-weight: bold;
-    color: #dc3545;
+    color: #5477b7;
     margin: 80px 0
 }
 
 .about-content h5 {
-    color: #2ecc71;
+    color: #f98235;
     text-align:center;
 }
 
@@ -366,12 +387,12 @@ body {
 }
 
 .services-content .card .card-body h3 {
-    color: #dc3545;
+    color: #5477b7;
     font-size: 20px
 }
 
 .services-content .card .card-body span {
-    background-color: #d25050;
+    background-color: #5477b7;
     padding: 10px 12px;
     border-radius: 30px;
     cursor: pointer;
@@ -424,7 +445,7 @@ body {
 
 .web-content .col-md-6 .con-btn {
     color: #fff;
-    background-color: #2ecc71;
+    background-color: #f98235;
     font-size: 20px;
     border: none;
     border-radius: 20px;
@@ -436,7 +457,7 @@ body {
 
 .web-content .col-md-6 .apply {
     color: #fff;
-    background-color: #dc3545;
+    background-color: #5477b7;
     font-size: 20px;
     border: none;
     border-radius: 20px;
@@ -454,8 +475,8 @@ body {
     margin: 60px 0;
     background-color: #f3f0f0;
     padding: 12px 10px;
-    border-right: 2px solid #dc3545;
-    border-left: 2px solid #dc3545
+    border-right: 2px solid #5477b7;
+    border-left: 2px solid #5477b7
 }
 
 .web-content .work-categories p {
@@ -474,8 +495,8 @@ body {
     margin: 60px 0;
     background-color: #f3f0f0;
     padding: 12px 10px;
-    border-right: 2px solid #f39c12;
-    border-left: 2px solid #f39c12;
+    border-right: 2px solid #f98235;
+    border-left: 2px solid #f98235;
     text-align: center
 }
 
@@ -488,8 +509,8 @@ body {
     margin: 60px 0;
     background-color: #f3f0f0;
     padding: 12px 10px;
-    border-right: 2px solid #f39c12;
-    border-left: 2px solid #f39c12;
+    border-right: 2px solid #f98235;
+    border-left: 2px solid #f98235;
     text-align: center
 }
 
@@ -501,8 +522,8 @@ body {
     margin: 80px 0;
     background-color: #f3f0f0;
     padding: 12px 10px;
-    border-right: 2px solid #2ecc71;
-    border-left: 2px solid #2ecc71;
+    border-right: 2px solid #f98235;
+    border-left: 2px solid #f98235;
     text-align: center
 }
 
@@ -512,17 +533,17 @@ body {
 
 .web-content .advantages h4 {
     padding: 12px 10px;
-    border: 1px solid #d25050;
+    border: 1px solid #5477b7;
     text-align: center;
     font-size: 18px;
-    background-color: #d25050;
+    background-color: #5477b7;
     color: #fff;
     border-top-left-radius: 30px;
     border-bottom-right-radius: 30px
 }
 
 .web-content h5 {
-    color: #2ecc71;
+    color: #f98235;
     margin: 30px 0
 }
 
@@ -541,8 +562,8 @@ body {
     text-align: right;
     background-color: #f3f0f0;
     padding: 12px 10px;
-    border-right: 2px solid #f39c12;
-    border-left: 2px solid #f39c12;
+    border-right: 2px solid #f98235;
+    border-left: 2px solid #f98235;
     width: 90px;
     margin: 0
 }
@@ -564,14 +585,14 @@ body {
 }
 
 .testemonials .share ul li:nth-of-type(2) i {
-    color: #2ecc71
+    color: #f98235
 }
 
 .testemonials .rating h3 {
     background-color: #f3f0f0;
     padding: 12px 10px;
-    border-right: 2px solid #f39c12;
-    border-left: 2px solid #f39c12;
+    border-right: 2px solid #f98235;
+    border-left: 2px solid #f98235;
 }
 
 .testemonials .rating {
@@ -631,7 +652,7 @@ body {
 .bars div {
     padding: 0 5px;
     margin: 10px;
-    background: #2ecc71;
+    background: #f98235;
     color: #fff;
 }
 .bars div i {
@@ -661,8 +682,8 @@ body {
 .form h4 {
     background-color: #f3f0f0;
     padding: 12px 10px;
-    border-right: 2px solid #2ecc71;
-    border-left: 2px solid #2ecc71;
+    border-right: 2px solid #f98235;
+    border-left: 2px solid #f98235;
     width: 205px
 }
 
@@ -687,7 +708,7 @@ body {
 }
 
 .form input[type=submit] {
-    background: #dc3545;
+    background: #5477b7;
     color: #fff;
     font-size: 20px;
     cursor: pointer;
@@ -734,7 +755,7 @@ body {
     width: 100px;
     height: 50px;
     margin: 40px 20px;
-    background-color: #2ecc71;
+    background-color: #f98235;
     color: #fff;
     border: none;
     border-radius: 30px;
@@ -755,7 +776,7 @@ body {
     margin: 100px 0;
     background-color: #f3f0f0;
     padding: 12px 10px;
-    border-right: 4px solid #dc3545
+    border-right: 4px solid #5477b7
 }
 
 .hosting-content .packages .package h4 {
@@ -764,7 +785,7 @@ body {
 }
 
 .hosting-content .packages .package h4 span {
-    color: #dc3545;
+    color: #5477b7;
     letter-spacing: 3px
 }
 
@@ -783,14 +804,14 @@ body {
 .hosting-content .packages .package h5 {
     border-bottom: 1px solid rgba(0, 0, 0, 0.125);
     padding: 20px 0;
-    background-color: #f39c12;
+    background-color: #f98235;
     letter-spacing: 4px;
     margin: 0;
     color: #fff
 }
 
 .hosting-content .packages .package h6.special {
-    background-color: #dc3545;
+    background-color: #5477b7;
     color: #fff;
     font-size: 30px;
 }
@@ -818,7 +839,7 @@ body {
 }
 
 .hosting-content .packages .card-btn {
-    background-color: #dc3545;
+    background-color: #5477b7;
     border: none;
     border-radius: 30px;
     color: #fff;
@@ -854,7 +875,7 @@ body {
     margin: 100px 0 80px 0;
     background-color: #f3f0f0;
     padding: 12px 10px;
-    border-right: 2px solid #dc3545
+    border-right: 2px solid #5477b7
 }
 
 .mobile-content img {
@@ -871,13 +892,13 @@ body {
 }
 
 .mobile-content .mobile-details p span {
-    color: #dc3545;
+    color: #5477b7;
     font-weight: bold
 }
 
 .mobile-content .mobile-details h3.special {
-    border-left: 3px solid #f39c12;
-    border-right: 4px solid #f39c12;
+    border-left: 3px solid #f98235;
+    border-right: 4px solid #f98235;
     text-align: center
 }
 
@@ -900,8 +921,8 @@ body {
     margin: 100px 0 80px 0;
     background-color: #f3f0f0;
     padding: 12px 10px;
-    border-right: 2px solid #dc3545;
-    border-left: 2px solid #dc3545;
+    border-right: 2px solid #5477b7;
+    border-left: 2px solid #5477b7;
     text-align: center
 }
 
@@ -921,17 +942,17 @@ body {
 .marketing-content .marketing-details>h4 {
     background-color: #f3f0f0;
     padding: 12px 10px;
-    border-right: 4px solid #f39c12;
+    border-right: 4px solid #f98235;
     margin: 100px 0
 }
 
 .marketing-content .marketing-details h4 span {
     font: bold;
-    color: #dc3545
+    color: #5477b7
 }
 
 .marketing-content .marketing-details h5 {
-    color: #dc3545;
+    color: #5477b7;
     font-size: 25px;
     margin-bottom: 30px
 }
@@ -963,7 +984,7 @@ body {
     font-size: 20px;
 }
 .programs-content .card .card-body span {
-    background-color: #dc3545;
+    background-color: #5477b7;
     border-radius: 20px;
     padding: 10px 15px;
     cursor: pointer;
@@ -1015,7 +1036,7 @@ body {
 .program1-content .row button {
     margin: 20px 0;
     border: none;
-    background-color: #dc3545;
+    background-color: #5477b7;
     border-radius: 40px;
     padding: 15px 25px;
     transition: 0.3s;
@@ -1035,16 +1056,16 @@ body {
     margin: 100px 0;
     background-color: #f3f0f0;
     padding: 12px 10px;
-    border-right: 2px solid #dc3545;
-    border-left: 2px solid #dc3545;
+    border-right: 2px solid #5477b7;
+    border-left: 2px solid #5477b7;
     text-align: center
 }
 
 .program1-content .program1-details .row  h4 {
     background-color: #f3f0f0;
     padding: 12px 10px;
-    border-right: 2px solid #f39c12;
-    border-left: 2px solid #f39c12;
+    border-right: 2px solid #f98235;
+    border-left: 2px solid #f98235;
     text-align: center
 }
 .program1-content .program1-details p {
@@ -1056,13 +1077,13 @@ body {
 
 .program1-content .program1-details h5 {
     text-align: center;
-    color: #2ecc71;
+    color: #f98235;
     margin: 40px 0;
     font-size: 30px
 }
 
 .program1-content .program1-details h5.special {
-    background-color: #d25050;
+    background-color: #5477b7;
     border-radius: 40px;
     color: #fff;
     font-size: 20px;
@@ -1102,7 +1123,7 @@ body {
 .program3-content button {
     margin: 20px 0;
     border: none;
-    background-color: #dc3545;
+    background-color: #5477b7;
     border-radius: 40px;
     padding: 15px 25px;
     transition: 0.3s;
@@ -1122,8 +1143,8 @@ body {
     margin: 100px 0;
     background-color: #f3f0f0;
     padding: 12px 10px;
-    border-right: 2px solid #dc3545;
-    border-left: 2px solid #dc3545;
+    border-right: 2px solid #5477b7;
+    border-left: 2px solid #5477b7;
     text-align: center
 }
 
@@ -1154,15 +1175,15 @@ body {
     margin: 100px 0;
     background-color: #f3f0f0;
     padding: 12px 10px;
-    border-right: 2px solid #dc3545;
-    border-left: 2px solid #dc3545;
+    border-right: 2px solid #5477b7;
+    border-left: 2px solid #5477b7;
     text-align: center
 }
 
 .program4-content button {
     margin: 20px 0;
     border: none;
-    background-color: #dc3545;
+    background-color: #5477b7;
     border-radius: 40px;
     padding: 15px 25px;
     transition: 0.3s;
@@ -1182,13 +1203,13 @@ body {
     margin: 20px 0;
     background-color: #f3f0f0;
     padding: 12px 10px;
-    border-right: 2px solid #f39c12;
-    border-left: 2px solid #f39c12;
+    border-right: 2px solid #f98235;
+    border-left: 2px solid #f98235;
     text-align: center
 }
 
 .program4-content .program4-details .row h5 {
-    color: #dc3545;
+    color: #5477b7;
     font-size: 30px;
     font-weight: bold;
     margin: 20px 0
@@ -1199,7 +1220,7 @@ body {
 }
 
 .program4-content .program4-details h6 {
-    color: #2ecc71;
+    color: #f98235;
     font-size: 20px;
     text-align: center
 }
@@ -1235,7 +1256,7 @@ body {
     margin: 60px 0;
     background-color: #f3f0f0;
     padding: 12px 10px;
-    border-right: 2px solid #dc3545;
+    border-right: 2px solid #5477b7;
 }
 
 .clients-content .textBox {
@@ -1258,7 +1279,7 @@ body {
 .clients-content .imgBox button {
     margin: 20px 5px 20px 0;
     border: none;
-    background-color: #dc3545;
+    background-color: #5477b7;
     border-radius: 30px;
     padding: 6px 15px;
     transition: 0.3s;
@@ -1296,7 +1317,7 @@ body {
     margin: 60px 0;
     background-color: #f3f0f0;
     padding: 12px 10px;
-    border-right: 2px solid #dc3545;
+    border-right: 2px solid #5477b7;
 }
 
 .offers-content img {
@@ -1334,7 +1355,7 @@ body {
 
 .offers-content .row h4 {
     margin: 0 20px 20px 0;
-    color: #dc3545;
+    color: #5477b7;
     font-size: 30px;
     font-weight: bold
 }
@@ -1345,7 +1366,7 @@ body {
 }
 
 .offers-content .row span i {
-    color: #dc3545
+    color: #5477b7
 }
 
 .offers-content .row p {
@@ -1356,7 +1377,7 @@ body {
 
 .offers-content .btns button:first-of-type {
     border: none;
-    background-color: #dc3545;
+    background-color: #5477b7;
     border-radius: 30px;
     padding: 10px 20px;
     transition: 0.3s;
@@ -1365,7 +1386,7 @@ body {
 
 .offers-content .btns button:last-of-type {
     border: none;
-    background-color: #2ecc71;
+    background-color: #f98235;
     border-radius: 30px;
     padding: 10px 20px;
     transition: 0.3s;
@@ -1404,11 +1425,11 @@ body {
 }
 
 .jobs-content .row h3 {
-    color: #dc3545
+    color: #5477b7
 }
 
 .jobs-content .row span {
-    color: #2ecc71;
+    color: #f98235;
     font-weight: bold
 }
 
@@ -1420,7 +1441,7 @@ body {
 
 .jobs-content button:first-of-type {
     border: none;
-    background-color: #2ecc71;
+    background-color: #f98235;
     border-radius: 30px;
     padding: 10px 20px;
     transition: 0.3s;
@@ -1430,7 +1451,7 @@ body {
 .jobs-content button:last-of-type {
     border: none;
     border-radius: 30px;
-    background-color: #dc3545;
+    background-color: #5477b7;
     padding: 10px 20px;
     transition: 0.3s;
     cursor: pointer;
@@ -1460,7 +1481,7 @@ body {
 
 .contact-content h4 {
     text-align: center;
-    color: #2ecc71;
+    color: #f98235;
     margin-top: 80px
 }
 
@@ -1485,7 +1506,7 @@ body {
     text-align: center;
     font-size: 30px;
     margin: 60px auto;
-    background-color: #dc3545;
+    background-color: #5477b7;
     width: 30%;
     padding: 10px 20px;
     border-radius: 30px;
@@ -1510,7 +1531,7 @@ body {
 
 .map-content button {
     border: none;
-    background-color: #dc3545;
+    background-color: #5477b7;
     border-radius: 30px;
     padding: 10px 20px;
     transition: 0.3s;
@@ -1553,7 +1574,7 @@ body {
     margin: 80px 0;
     background-color: #f3f0f0;
     padding: 12px 10px;
-    border-right: 2px solid #dc3545
+    border-right: 2px solid #5477b7
 }
 
 .exp-content p {
@@ -1564,7 +1585,7 @@ body {
 
 .exp-content button:first-of-type {
     border: none;
-    background-color: #d25050;
+    background-color: #5477b7;
     border-radius: 30px;
     padding: 10px 20px;
     transition: 0.3s;
@@ -1574,7 +1595,7 @@ body {
 .exp-content button:last-of-type {
     border: none;
     border-radius: 30px;
-    background-color: #2ecc71;
+    background-color: #f98235;
     padding: 10px 20px;
     transition: 0.3s;
     cursor: pointer;

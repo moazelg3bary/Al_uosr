@@ -56,7 +56,7 @@
 .about-content h3, .hosting-content .packages h3, .marketing-content .marketing-details>h4,
  .mobile-content .mobile-details h3, .exp-content>h3, .clients-content>h3, .offers-content h3 {
     border-right: none;
-    border-left: 4px solid #dc3545;
+    border-left: 4px solid #5477b7;
 }
 /* end services */
 
